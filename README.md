@@ -1,5 +1,5 @@
 # JarJarLauncher - Configurable UO Shard Launcher
-![Background](background.png)
+![Readme](readme.png)
 **JarJarLauncher** is a fully configurable game launcher for Ultima Online shards. It provides automatic updates via any web server (GitHub, your website, etc.), customizable UI, and flexible launch parameters - all controlled through a simple JSON configuration file.
 
 ---
