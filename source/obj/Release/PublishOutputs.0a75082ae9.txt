@@ -1,0 +1,2 @@
+C:\Users\SERVER\source\repos\Launcher\bin\Release\win-x64\publish\JarJarLauncher.pdb
+C:\Users\SERVER\source\repos\Launcher\bin\Release\win-x64\publish\JarJarLauncher.exe

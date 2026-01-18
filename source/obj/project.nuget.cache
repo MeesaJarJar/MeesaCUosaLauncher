@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AQzLiRH6ilQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SERVER\\source\\repos\\Launcher\\Launcher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SERVER\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.11\\microsoft.net.illink.tasks.9.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,67 @@
+{
+  "shard_name": "My UO Shard",
+  "shard_description": "A custom UO shard",
+  "manifest_url": "https://raw.githubusercontent.com/MeesaJarJar/MeesaCuosaLauncher/main/manifest.xml",
+  "download_base_url": "https://raw.githubusercontent.com/MeesaJarJar/MeesaCuosaLauncher/main",
+  "client_executable": "ClassicUO.exe",
+  "client_working_directory": null,
+  "server_address": "127.0.0.1",
+  "server_port": 2593,
+  "base_arguments": [
+    {
+      "key": "-ip",
+      "value": "{SERVER_ADDRESS}",
+      "is_quoted": false,
+      "description": null
+    },
+    {
+      "key": "-port",
+      "value": "{SERVER_PORT}",
+      "is_quoted": false,
+      "description": null
+    },
+    {
+      "key": "-ultimaonlinedirectory",
+      "value": "{UO_DIRECTORY}",
+      "is_quoted": true,
+      "description": null
+    }
+  ],
+  "custom_arguments": [],
+  "ui_settings": {
+    "title": "JarJar Launcher",
+    "window_width": 720,
+    "window_height": 580,
+    "theme": {
+      "background_color": "#1E1E23",
+      "title_color": "#64C8FF",
+      "text_color": "#FFFFFF",
+      "button_background": "#3C3C46",
+      "button_text_color": "#FFFFFF",
+      "play_button_background": "#3278C8",
+      "update_button_background": "#468246",
+      "update_button_highlight": "#C89632",
+      "log_background": "#141419",
+      "log_text_color": "#90EE90",
+      "textbox_background": "#323237",
+      "textbox_valid_background": "#284628",
+      "textbox_invalid_background": "#462828"
+    },
+    "show_uo_directory_field": true,
+    "show_version_label": true,
+    "play_button_text": "PLAY",
+    "check_button_text": "Check for Updates",
+    "update_button_text": "Update Now"
+  },
+  "backups_to_keep": 5,
+  "preserved_paths": [
+    "Data",
+    "Profiles",
+    "settings.json",
+    "backup"
+  ],
+  "auto_check_updates": true,
+  "close_launcher_on_game_start": true,
+  "http_timeout_seconds": 300,
+  "user_agent": "JarJarLauncher/1.0"
+}
